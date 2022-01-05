@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class CreateNoteForm extends Component {
+class CreateNoteForm extends Component {
   render() {
     return (
       <form>
@@ -11,3 +11,5 @@ export default class CreateNoteForm extends Component {
     );
   }
 }
+
+export default CreateNoteForm;

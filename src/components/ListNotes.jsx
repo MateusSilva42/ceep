@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class ListNotes extends Component {
+class ListNotes extends Component {
   render() {
     return (
       <section>
@@ -38,3 +38,5 @@ export default class ListNotes extends Component {
     );
   }
 }
+
+export default ListNotes;
