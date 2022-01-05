@@ -1,13 +1,16 @@
+import React, { Component } from "react";
 import ListNotes from "./components/ListNotes";
 import CreateNoteForm from "./components/CreateNoteForm";
 
-function App() {
-  return (
-    <section>
-      <CreateNoteForm/>
-      <ListNotes/>
-    </section>
-  );
+class App extends Component {
+  render() {
+    return (
+      <section>
+        <CreateNoteForm />
+        <ListNotes />
+      </section>
+    );
+  }
 }
 
 export default App;
