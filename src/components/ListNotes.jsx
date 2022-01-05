@@ -6,19 +6,15 @@ class ListNotes extends Component {
     return (
       <section>
         <ul>
-          <li>
-            <Note />
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <Note />
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <Note />
-          </li>
+            {Array.of("Trabalho", "Trabalho", "Estudos").map(Categoria =>{
+                return(
+                    <li>
+                    <h5>{Categoria}</h5>
+                    <Note />
+                  </li>
+                );
+            })}
+        
         </ul>
       </section>
     );
