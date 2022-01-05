@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Note from "./Note";
 
 class ListNotes extends Component {
   render() {
@@ -6,32 +7,17 @@ class ListNotes extends Component {
       <section>
         <ul>
           <li>
-            <section>
-              <header>
-                <h3>Título da nota</h3>
-              </header>
-              <p>Texto da sua nota...</p>
-            </section>
+            <Note />
           </li>
         </ul>
         <ul>
           <li>
-            <section>
-              <header>
-                <h3>Título da nota</h3>
-              </header>
-              <p>Texto da sua nota...</p>
-            </section>
+            <Note />
           </li>
         </ul>
         <ul>
           <li>
-            <section>
-              <header>
-                <h3>Título da nota</h3>
-              </header>
-              <p>Texto da sua nota...</p>
-            </section>
+            <Note />
           </li>
         </ul>
       </section>
