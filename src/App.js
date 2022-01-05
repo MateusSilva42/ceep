@@ -1,3 +1,5 @@
+import ListNotes from "./components/ListNotes";
+
 function App() {
   return (
     <section>
@@ -6,36 +8,7 @@ function App() {
         <textarea placeholder="Escreva sua nota..." />
         <button>Criar Nota</button>
       </form>
-      <ul>
-        <li>
-          <section>
-            <header>
-              <h3>Título da nota</h3>
-            </header>
-            <p>Texto da sua nota...</p>
-          </section>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <section>
-            <header>
-              <h3>Título da nota</h3>
-            </header>
-            <p>Texto da sua nota...</p>
-          </section>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <section>
-            <header>
-              <h3>Título da nota</h3>
-            </header>
-            <p>Texto da sua nota...</p>
-          </section>
-        </li>
-      </ul>
+      <ListNotes/>
     </section>
   );
 }
